@@ -1,0 +1,1 @@
+jstestdriver --port 42442 --browser /usr/bin/firefox --tests all

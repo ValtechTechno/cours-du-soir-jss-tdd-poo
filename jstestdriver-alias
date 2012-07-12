@@ -1,0 +1,1 @@
+alias jstestdriver='java -jar $(dirname $0)/lib/JsTestDriver-1.3.4.b.jar'
