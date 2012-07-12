@@ -1,7 +1,9 @@
 function inherit(obj) {
     function F() {}
     for (var s in obj) {
-        F[s] = obj[s];
+        if (obj.hasOwnProperty(s)) {
+            F[s] = obj[s];
+        }
     }
     F.prototype = new obj(null);
 	return F;
