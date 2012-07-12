@@ -12,3 +12,7 @@ CarTest.prototype.testHasProperty = function() {
    assertTrue(myCar.hasOwnProperty("wheels"));
 };
 
+CarTest.prototype.testHasStatic = function() {
+    assertTrue("dany" in Car);
+    assertUndefined(new Car().dany);
+};
