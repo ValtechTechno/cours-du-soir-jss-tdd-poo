@@ -7,5 +7,5 @@ GreeterTest.prototype.testGreet = function() {
 
 GreeterTest.prototype.testGreetFoo = function() {
   var greeter = new myapp.Greeter();
-  assertEquals("Hello foo!", greeter.greet("foo"));
+  assertEquals("Hello foobar qix!", greeter.greet("foo"));
 };
